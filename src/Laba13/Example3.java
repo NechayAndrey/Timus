@@ -35,7 +35,6 @@ public class Example3 {
                             e.printStackTrace();
                         }
                     }
-
                     lock.notifyAll();
                 }
             }
@@ -45,5 +44,4 @@ public class Example3 {
         evenThread.start();
         oddThread.start ();
     }
-
 }
