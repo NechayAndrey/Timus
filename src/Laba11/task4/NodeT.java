@@ -1,14 +1,14 @@
 package Laba11.task4;
 
-import laba11.task4.Node;
+import Laba11.task4.Node;
 
 public class NodeT { // главный класс
     public static void main(String[] args) {
         // создание несвязанных узлов с помошью конструктора
-        laba11.task4.Node node0 = new laba11.task4.Node(0, null); // 0-узел - будет головой в списке
-        laba11.task4.Node node1 = new laba11.task4.Node(1, null);
-        laba11.task4.Node node2 = new laba11.task4.Node( 2, null);
-        laba11.task4.Node node3 = new laba11.task4.Node(3, null); // последний узел - будет хвостом в списке
+        Laba11.task4.Node node0 = new Laba11.task4.Node(0, null); // 0-узел - будет головой в списке
+        Laba11.task4.Node node1 = new Laba11.task4.Node(1, null);
+        Laba11.task4.Node node2 = new Laba11.task4.Node( 2, null);
+        Laba11.task4.Node node3 = new Laba11.task4.Node(3, null); // последний узел - будет хвостом в списке
 
         //связывание узлов в список с помошью ссылок
 
